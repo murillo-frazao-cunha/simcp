@@ -19,15 +19,15 @@
 char ONIBUS[] = "I02";
 
 // --- Configurações da Rede ---
-char ssid[] = "A54";
-char pass[] = "arduinoconnect";
+char ssid[] = "nome_da_rede";
+char pass[] = "senha_da_rede";
 
 int status = WL_IDLE_STATUS;
 WiFiEspClient client;
 
 // --- Servidor da API ---
-const char server[] = "193.123.103.129";
-const int port = 1033;
+const char server[] = "123.456.789.0";
+const int port = 80;
 
 // --- Variável de Contagem ---
 int pessoas = 0;
